@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Financial Accounting</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header class="header desktop">
+	<div class="header-items">
+		<label><h1>USMAN.</h1></label>
+	</div>
+	<div class="header-items">
+		<ul>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#contact">CONTACT US</a></li>
+			<li><div class="pixel" id="pixel"></div></li>
+		</ul>
+	</div>
+	<div class="colors hidden" id="colors">
+		<div class="p-red" id="t-red">
+
+		</div>
+					&nbsp;&nbsp;&nbsp;
+		<div class="p-orange" id="t-orange">
+
+		</div>
+					&nbsp;&nbsp;&nbsp;
+		<div class="p-green" id="t-green">
+
+		</div>
+			&nbsp;&nbsp;&nbsp;
+		<div class="p-blue" id="t-blue">
+
+		</div>
+
+			&nbsp;&nbsp;&nbsp;
+		<div class="p-black" id="t-black">
+
+		</div>
+	</div>
+</header>
+
+<div class="form-container">
+	<div class="items">
+
+		<div class="Label-form">
+			<h2>Depreciation Calculator</h2>
+			</div>
+			<br>
+		<div class="form">
+			<form class="" action="process.php" method="post">
+				<div class="form-items">
+					<label for="Asset Price"><h4>Asset Price</h4></label>
+					<input type="text" name="AssetPrice" value="" >
+				</div>
+				<div class="form-items">
+					<label for="Asset Price"><h4>Start Date</h4></label>
+					<input type="text" name="Startdate" value="" >
+				</div>
+				<div class="form-items">
+					<label for="Asset Price"><h4>Start Month</h4></label>
+					<input type="text" name="Startmonth" value="" >
+				</div>
+				<div class="form-items">
+					<label for="Asset Price"><h4>Start Year</h4></label>
+					<input type="text" name="Startyear" value="" >
+				</div>
+				<div class="form-items">
+					<label for="Asset Price"><h4>Method</h4></label>
+					<select class="myselect	" name="method">
+						<option value="0">Straight Line Method</option>
+						<option value="1">Dimnishing Balance Method</option>
+					</select>
+				</div>
+				<div class="form-items">
+					<label for="Asset Price"><h4>Number Of Years</h4></label>
+					<input type="text" name="NoOfYears" value="" >
+				</div>
+
+				<div class="form-items">
+					<label for="Asset Price"><h4>Deprecation rate</h4></label>
+					<input type="text" name="Depreciation" value="">
+				</div>
+				<div class="form-items">
+					<button type="submit" name="submit">Calculate</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<div class="footer-container">
+		<div class="footer-items">
+			<h4>Programmer</h4>
+			<p>Name: Syed Muhammad Usman Ali Bukhari</p>
+			<p>Education: BSCS Student</p>
+			<p>Institution: GCU, Lahore Pakistan</p>
+			<h4>Contact</h4>
+			<div class="s-icons">
+			<p><a href="https://www.facebook.com/usman.bukhari96" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/usman_ali_bukhari_shah?r=nametag" target="_blank"><i class="fab fa-instagram"></i></i></a></p>
+		</div>
+		</div>
+		<div class="footer-items">
+			<div class="s-i">
+				<h4>Become a supporter</h4>
+			</div>
+			<div class="sp">
+
+				<p> <img src="EP.svg" alt=""> </p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<p> <img src="JZ.svg" alt=""> </p>
+
+			</div>
+						<div class="s-i">
+							<p> <u>#Support</u> </p>
+						</div>
+		</div>
+	</div>
+</footer>
+<script src="java.js">
+
+</script>
+</body>
+</html>
